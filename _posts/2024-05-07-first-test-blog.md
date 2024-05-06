@@ -40,6 +40,7 @@ pip install -U ipython
 # pip install jupyter
 ```
 3. 验证安装结果
+
 ```bash
 source activate xxxEnv
 ipython
@@ -52,6 +53,7 @@ Out[5]: True
 In [6]: tf.config.list_physical_devices('GPU')
 Out[6]: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
 ```
+
 如果`tf.test.is_gpu_available()`输出为`True`则表示能成功使用GPU加速计算。
 如果`tf.config.list_physical_devices('GPU')`输出的列表不为空则表示检测到了可用GPU。
 
