@@ -6,8 +6,6 @@ header-style: text
 catalog:      true
 tags:
     - Python
-	- DeepLearning
-	- Tensorflow
 ---
 
 > Author: Zhou Yafei
