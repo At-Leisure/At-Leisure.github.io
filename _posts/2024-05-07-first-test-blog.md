@@ -1,15 +1,13 @@
 ---
 layout:       post
 title:        "第一篇测试文章"
-author:       "Zhou"
+author:       "Zhou Yafei"
 header-style: text
 catalog:      true
 tags:
     - Python
 	- DeepLearning
 	- Tensorflow
-	- CUDA
-	- CuDnn
 ---
 
 > Author: Zhou Yafei
