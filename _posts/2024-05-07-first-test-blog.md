@@ -6,7 +6,10 @@ header-style: text
 catalog:      true
 tags:
     - Python
-
+	- DeepLearning
+	- Tensorflow
+	- CUDA
+	- CuDnn
 ---
 
 > Author: Zhou Yafei
