@@ -1,15 +1,17 @@
 ---
 layout:     post
 title:      "第一篇测试文章"
-author:     "Hux"
+author:     "周(๑•̌.•๑)"
 header-img: "img/post-bg-re-vs-ng2.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
+  - 深度学习
   - Python
 ---
 
-> Author: Zhou Yafei
+> Author: Zhou Yafei。\
+Tip: Jykell的tag格式应该是`[空格]- Python`而不是`[Tab]- Python`！
 
 ## 目录
 
