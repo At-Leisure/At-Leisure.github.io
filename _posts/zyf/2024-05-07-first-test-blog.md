@@ -11,7 +11,7 @@ tags:
 ---
 
 > Author: Zhou Yafei。\
-Tip: Jykell的tag格式应该是`[空格]- Python`而不是`[Tab]- Python`！
+Tip: Jykell的tag格式应该是`[空格]- Python`而不是`[Tab]- Python`，否则主页无法正常显示标题和加载css！
 
 ## 目录
 
