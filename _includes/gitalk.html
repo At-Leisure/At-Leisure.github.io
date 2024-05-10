@@ -1,6 +1,6 @@
 <div id="gitalk-container"></div>
 <script>
-    console.log(location.href);
+    console.log(location.pathname);
     console.log(md5(location.href));
     var gitalk = new Gitalk({
         clientID: 'Ov23li9k4GjjOmfjFuDe',
@@ -10,7 +10,7 @@
         owner: 'At-Leisure',
         proxy: "https://strong-caramel-969805.netlify.app/github_access_token",
         admin: ['At-Leisur'],
-        id: location.pathname,      // Ensure uniqueness and len
+        id: '',      // Ensure uniqueness and len
         labels: [md5(location.href)],//md5(location.herf),
         distractionFreeMode: false,  // Facebook-like distraction
     })
