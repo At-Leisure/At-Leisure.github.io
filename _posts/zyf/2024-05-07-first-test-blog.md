@@ -5,8 +5,8 @@ author:       "Zhou Yafei"
 header-style: text
 catalog:      true
 tags:
-    - Python
 	- 深度学习
+    - Python
 ---
 
 > Author: Zhou Yafei
