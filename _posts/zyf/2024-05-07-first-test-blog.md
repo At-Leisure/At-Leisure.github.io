@@ -1,11 +1,12 @@
 ---
-layout:       post
-title:        "第一篇测试文章"
-author:       "Zhou Yafei"
-header-style: text
-catalog:      true
+layout:     post
+title:      "第一篇测试文章"
+author:     "Hux"
+header-img: "img/post-bg-re-vs-ng2.jpg"
+header-mask: 0.3
+catalog:    true
 tags:
-	- 深度学习
+  - Python
 ---
 
 > Author: Zhou Yafei
