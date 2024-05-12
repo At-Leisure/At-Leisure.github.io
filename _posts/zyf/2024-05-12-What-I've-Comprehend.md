@@ -3,7 +3,7 @@ layout:       post
 title:        "匆匆四年"
 author:       "周(๑•̌.•๑)"
 header-img:   "img/solar-system.jpg"
-header-mask:  0.3 # 控制图片的alpha通道
+header-mask:  0.0 # 控制图片的暗度
 catalog:      true
 tags:
   - Zhou随想录
