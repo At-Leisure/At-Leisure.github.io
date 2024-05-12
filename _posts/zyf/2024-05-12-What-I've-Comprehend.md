@@ -2,7 +2,7 @@
 layout:       post
 title:        "匆匆四年"
 author:       "周(๑•̌.•๑)"
-header-img:   "img/solar-system.jpg"
+header-img:   "img/solar-system.webp"
 header-mask:  0.0 # 控制图片的暗度
 catalog:      true
 tags:
