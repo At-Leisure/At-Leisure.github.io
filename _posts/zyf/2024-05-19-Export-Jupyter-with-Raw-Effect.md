@@ -55,6 +55,6 @@ tags:
                           /*边缘阴影效果*/
                           box-shadow: 0 0 15px 10px #e9e9e9;  "
                       '''))
-
-          return p.stdout
+          NormalCode = 0
+          return p.returncode == NormalCode
       ```
