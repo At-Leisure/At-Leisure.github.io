@@ -31,3 +31,30 @@ tags:
       box-shadow: 0 0 15px 10px #e9e9e9;  /*边缘阴影效果*/
     }
     ```
+
+3. Python一键转换
+
+      ```python
+      import subprocess
+
+
+      def jupyter2html(path: str, *, modify=True):
+          fn = path.rsplit('.', 1)[0]
+          p = subprocess.run(f'jupyter nbconvert --to html "{fn}.ipynb"')  # 阻塞式运行
+
+          if modify:
+              with open(f'{fn}.html', 'r', encoding='utf-8') as f:
+                  text = f.read()
+              with open(f'{fn}.html', 'w', encoding='utf-8') as f:
+                  f.write(text.replace(
+                      '<body',
+                      '''<body style="width: 75%; /*宽度为75%*/
+                          margin-left: auto;  /*边缘自适应居中*/
+                          margin-right: auto; /*边缘自适应居中*/
+                          border-radius: 5px; /*圆角效果*/
+                          /*边缘阴影效果*/
+                          box-shadow: 0 0 15px 10px #e9e9e9;  "
+                      '''))
+
+          return p.stdout
+      ```
