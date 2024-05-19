@@ -15,6 +15,6 @@ body{
   margin-left: auto;  /*边缘自适应居中*/
   margin-right: auto; /*边缘自适应居中*/
   border-radius: 5px; /*圆角效果*/
-  box-shadow: 0 0 15px 10px #e9e9e9;" /*边缘阴影效果*/
+  box-shadow: 0 0 15px 10px #e9e9e9;  /*边缘阴影效果*/
 }
 ```
